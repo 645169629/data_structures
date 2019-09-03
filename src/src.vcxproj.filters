@@ -30,6 +30,30 @@
     <ClInclude Include="vector\vector.h">
       <Filter>vector\头文件</Filter>
     </ClInclude>
+    <ClInclude Include="vector\vector_constructor_by_copying.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_implementation.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_assignment.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_expand.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_shrink.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_bracket.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\permute.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_unsort.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
