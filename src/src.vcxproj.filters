@@ -20,6 +20,18 @@
     <Filter Include="stack&amp;queue">
       <UniqueIdentifier>{0541b973-3e92-44e0-9bfc-435da62865e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="uniprint">
+      <UniqueIdentifier>{f9537932-6e0a-4034-bca3-8abfd45a6316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uniprint\头文件">
+      <UniqueIdentifier>{d97268da-ae53-4f3d-b738-1f98bfcaf7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uniprint\源文件">
+      <UniqueIdentifier>{22903286-f4ae-402c-9e47-f92269ab5c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fibonacci">
+      <UniqueIdentifier>{ed410b19-754a-4b38-ab91-2504ece8bff1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="vector\main.cpp">
@@ -52,6 +64,45 @@
       <Filter>vector\头文件</Filter>
     </ClInclude>
     <ClInclude Include="vector\vector_unsort.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_find.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_insert.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_remove.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_deduplicate.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_traverse.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uniprint\print.h">
+      <Filter>uniprint\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_disordered.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_uniquify.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_search.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fibonacci\fib.h">
+      <Filter>fibonacci</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_sort.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_bubblesort.h">
+      <Filter>vector\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector_mergesort.h">
       <Filter>vector\头文件</Filter>
     </ClInclude>
   </ItemGroup>

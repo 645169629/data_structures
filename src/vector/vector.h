@@ -12,7 +12,7 @@ protected:
 	void bubbleSort(Rank lo, Rank hi); // 冒泡排序算法
 	Rank max(Rank lo, Rank hi); // 选取最大元素
 	void selectionSort(Rank lo, Rank hi); // 选择排序
-	void merge(Rank lo, Rank hi); // 归并算法
+	void merge(Rank lo, Rank mi, Rank hi); // 归并算法
 	void mergeSort(Rank lo, Rank hi); // 归并排序算法
 	Rank partition(Rank lo, Rank hi); // 轴点（pivot）构造算法
 	void quickSort(Rank lo, Rank hi); // 快速排序算法
@@ -52,6 +52,7 @@ public:
 	int deduplicate(); // 无序去重
 	int uniquify(); // 有序去重
 	//遍历
+	void traverse();
 	void traverse(void(*) (T&)); // 遍历（使用函数指针，只读局部性修改）
 	template<typename VST> void traverse(VST&); // 遍历（使用函数对象，可全局性修改）
 };

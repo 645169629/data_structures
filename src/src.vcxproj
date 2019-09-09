@@ -154,14 +154,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="fibonacci\fib.h" />
+    <ClInclude Include="uniprint\print.h" />
     <ClInclude Include="vector\vector.h" />
     <ClInclude Include="vector\vector_assignment.h" />
     <ClInclude Include="vector\vector_bracket.h" />
+    <ClInclude Include="vector\vector_bubblesort.h" />
     <ClInclude Include="vector\vector_constructor_by_copying.h" />
+    <ClInclude Include="vector\vector_deduplicate.h" />
+    <ClInclude Include="vector\vector_disordered.h" />
     <ClInclude Include="vector\vector_expand.h" />
+    <ClInclude Include="vector\vector_find.h" />
     <ClInclude Include="vector\vector_implementation.h" />
     <ClInclude Include="vector\permute.h" />
+    <ClInclude Include="vector\vector_insert.h" />
+    <ClInclude Include="vector\vector_mergesort.h" />
+    <ClInclude Include="vector\vector_remove.h" />
+    <ClInclude Include="vector\vector_search.h" />
     <ClInclude Include="vector\vector_shrink.h" />
+    <ClInclude Include="vector\vector_sort.h" />
+    <ClInclude Include="vector\vector_traverse.h" />
+    <ClInclude Include="vector\vector_uniquify.h" />
     <ClInclude Include="vector\vector_unsort.h" />
   </ItemGroup>
   <ItemGroup>
